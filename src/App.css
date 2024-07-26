@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+  margin: 0px;
+  padding: 0px;
+}
+*{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.TheMainImage{
+  border-radius: 50%;
+}
+.TheMainImage{
+  width: 80px;
+}
+.TheProfileInfo{
+  display: inline-flex;
+  gap: 30px ;
+  align-items: center;
+  /* width: auto; */
+
+
+}
+.MotiTitle{
+  color: gray;
+}
+.TheUserNameTitle,.MotiTitle{
+  margin: 5px;
+}
+.TheUserNameTitle{
+  font-size: 24px;
+}
+.CintraingTheElement{
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+hr{
+  outline: 200px;
+  border: 2.5px solid black;
+  width: 30%;
+  border-radius: 100px;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  color: #212429;
+}
+.TheSideBarBarnt{
+  padding: 10px;
+  padding-top: 20px;
+  background-color: white;
+}
+*{
+  /* border: 1px solid black; */
+}
+.TheIconOfTheUl{
+  width: 28px;
+  /* background-color: red; */
+  filter: invert(5%) sepia(19%) saturate(3398%) hue-rotate(217deg) brightness(106%) contrast(101%);
+
+}
+.TheTitleWithIcon{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.TheTitleofUl{
+  font-size: 20px;
+}
+ul{
+  margin-left: 29px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 17px;
+  /* border: 1px solid black; */
+  /* width: 100%; */
+  margin-top: 2px;
+
+}
+.TheUiBody{
+  color: rgb(85, 85, 85);
+}
+.TheUiBody *{
+  user-select: none;
+}
+.C1{
+  list-style-image: url("image's/The bink Ball.svg");
+}
+.C2{
+  list-style-image: url("image's/The blue Ball.svg");
+}
+.C3{
+  list-style-image: url("image's/The yellow Ball.svg");
+}
+.C4{
+  list-style-image: url("image's/The gray Ball.svg");
+  transition: background-color .3s linear;
+  transition: all 1s linear;
+  transition: border .303s linear;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+.C4:hover{
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+.C4:active{
+  background-color: rgba(0, 0, 0, 0.288);
+}
+.TheDots{
+  letter-spacing: 3px;
+}
+.graytion{
+  color: rgba(0, 0, 0, 0.479);
+  font-weight: bold;
+}
+li{
+  padding-left: 5px;
+  position: relative;
+}
+.TheTitleOfli{
+  margin: 0px;
+  position: absolute;
+}
+.TheCi{
+  position: relative;
+  right: 50px;
+}
