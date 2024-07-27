@@ -42,13 +42,13 @@ body{
   gap: 20px;
 }
 hr{
-  outline: 200px;
-  border: 2.5px solid black;
+  outline: 20px;
+  border: 1.5px solid black;
   width: 30%;
   border-radius: 100px;
   margin-top: 18px;
   margin-bottom: 20px;
-  color: #212429;
+  color: black;
 }
 .TheSideBarBarnt{
   padding: 10px;
@@ -71,6 +71,7 @@ hr{
 }
 .TheTitleofUl{
   font-size: 20px;
+  margin: 0px;
 }
 ul{
   margin-left: 29px;
@@ -80,7 +81,7 @@ ul{
   font-size: 17px;
   /* border: 1px solid black; */
   /* width: 100%; */
-  margin-top: 2px;
+  margin-top: 15px;
 
 }
 .TheUiBody{
@@ -109,6 +110,9 @@ ul{
   cursor: pointer;
   user-select: none;
 }
+.C5{
+  list-style-image: url("image's/The gray Ball.svg");
+}
 .C4:hover{
   border: 1px solid black;
   background-color: rgba(0, 0, 0, 0.226);
@@ -134,4 +138,15 @@ li{
 .TheCi{
   position: relative;
   right: 50px;
+}
+.modal-body{
+  display: flex;
+  gap: 15px;
+}
+.TheSelect{
+  width: 40%;
+}
+option{
+  padding: 10px;
+  font-size: 15px ;
 }
