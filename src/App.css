@@ -12,23 +12,27 @@ body{
   border-radius: 50%;
 }
 .TheMainImage{
-  width: 80px;
+  width: 90px;
 }
 .TheProfileInfo{
   display: inline-flex;
   gap: 30px ;
   align-items: center;
+  /* border: 1px solid black; */
+  margin-top: 20px;
   /* width: auto; */
 
 
 }
 .MotiTitle{
-  color: gray;
+  color: rgb(206, 206, 206);
+  font-size: 18px;
 }
 .TheUserNameTitle,.MotiTitle{
-  margin: 5px;
+  margin-top: 5px;
 }
 .TheUserNameTitle{
+  margin-top: 10px;
   font-size: 24px;
 }
 .CintraingTheElement{
@@ -43,12 +47,12 @@ body{
 }
 hr{
   outline: 20px;
-  border: 1.5px solid black;
-  width: 30%;
+  border: 1.5px solid rgb(255, 255, 255);
+  width: 80%;
   border-radius: 100px;
   margin-top: 18px;
   margin-bottom: 20px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .TheSideBarBarnt{
   padding: 10px;
@@ -61,8 +65,7 @@ hr{
 .TheIconOfTheUl{
   width: 28px;
   /* background-color: red; */
-  filter: invert(5%) sepia(19%) saturate(3398%) hue-rotate(217deg) brightness(106%) contrast(101%);
-
+  filter: invert(100%) sepia(6%) saturate(0%) hue-rotate(196deg) brightness(102%) contrast(105%);
 }
 .TheTitleWithIcon{
   display: flex;
@@ -72,12 +75,13 @@ hr{
 .TheTitleofUl{
   font-size: 20px;
   margin: 0px;
+  color: white;
 }
 ul{
   margin-left: 29px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 18px;
   font-size: 17px;
   /* border: 1px solid black; */
   /* width: 100%; */
@@ -86,6 +90,8 @@ ul{
 }
 .TheUiBody{
   color: rgb(85, 85, 85);
+  /* border: 1px solid; */
+  margin: 60px 0px;
 }
 .TheUiBody *{
   user-select: none;
@@ -134,6 +140,7 @@ li{
 .TheTitleOfli{
   margin: 0px;
   position: absolute;
+  color: white;
 }
 .TheCi{
   position: relative;
@@ -149,4 +156,43 @@ li{
 option{
   padding: 10px;
   font-size: 15px ;
+}
+.TheRoot{
+  display: grid;
+  grid-template-columns: 26% 1fr;
+}
+.TheRoot *{
+  /* border: 1px solid black; */
+}
+.TheMainPage{
+  background-color: #222222;
+  color: white;
+  height: 103%;
+  width: 100%;
+  border-radius:  20px;
+  padding: 10px;
+}
+.TheMainPageParnt{
+  width: 100%;
+  padding: 20px;
+}
+.TheSideBarBarnt , .TheMainPageParnt{
+  background-color: #1d1b1c;
+  color: white;
+}
+.TheTxtParntDiv{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.TheMotiHeaderTitle{
+  font-size: 23px;
+  opacity: 0.89;
+}
+.TheDic{
+  font-weight: bold;
+  font-size: 25px;
+}
+.TheMainInputBody{
+  margin-top: 25px;
+  text-align: center;
 }

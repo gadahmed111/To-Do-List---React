@@ -63,9 +63,9 @@ export default function TheSideBarBarnt() {
                                 <input className="form-control" type="text" placeholder="filter" aria-label="default input example" onChange={handleFilterChange} />
                                 <select onChange={handleColorChange} className="TheSelect form-select form-select-sm" aria-label="Small select example">
                                     <option selected >Color of ball</option>
-                                    <option className='F df' value="C3" style={{ backgroundColor: "#f9c708" }}><b>Yellow</b></option>
-                                    <option className='s df' value="C1" style={{ backgroundColor: "#fd98af" }}><b>Pink</b></option>
-                                    <option className='th df' value="C2" style={{ backgroundColor: "#3fd4f4" }}><b>Baby blue</b></option>
+                                    <option className='F df' value="C3" style={{ backgroundColor: "#f9c708" }}><b className='TheColor'>Yellow</b></option>
+                                    <option className='s df' value="C1" style={{ backgroundColor: "#fd98af" }}><b className='TheColor'>Pink</b></option>
+                                    <option className='th df' value="C2" style={{ backgroundColor: "#3fd4f4" }}><b className='TheColor'>Baby blue</b></option>
                                 </select>
                             </div>
                             <div className="modal-footer">
