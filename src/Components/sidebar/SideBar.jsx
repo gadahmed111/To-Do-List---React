@@ -39,7 +39,7 @@ export default function TheSideBarBarnt() {
                 <TheAllInfoProfileOfSideBar title="if you are a man" username="El osta abdo" />
                 <hr />
                 <div className="TheCi">
-                    <TheTasksPart SrcOfICon="./image's/calendar (1).svg" titleOfUl="Today tasks">
+                    <TheTasksPart className="TheFirstUL" SrcOfICon="./image's/calendar (1).svg" titleOfUl="Today tasks">
                         {tasks.map((task) => (
                             <li key={task.TheLiTitle} className={task.TheClass}>
                                 <p className="TheTitleOfli">{task.TheLiTitle}</p>
@@ -56,7 +56,7 @@ export default function TheSideBarBarnt() {
                     <div className="modal-dialog">
                         <div className="modal-content">
                             <div className="modal-header">
-                                <h1 className="modal-title fs-5" id="staticBackdropLabel">Add filter</h1>
+                                <h1 className="modal-title fs-5" style={{color:"black"}} id="staticBackdropLabel">Add filter</h1>
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" />
                             </div>
                             <div className="modal-body">

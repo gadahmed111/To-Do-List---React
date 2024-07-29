@@ -12,7 +12,7 @@ body{
   border-radius: 50%;
 }
 .TheMainImage{
-  width: 90px;
+  width: 80px;
 }
 .TheProfileInfo{
   display: inline-flex;
@@ -43,15 +43,15 @@ body{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 }
 hr{
   outline: 20px;
   border: 1.5px solid rgb(255, 255, 255);
   width: 80%;
   border-radius: 100px;
-  margin-top: 18px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 0px;
   color: rgb(255, 255, 255);
 }
 .TheSideBarBarnt{
@@ -144,7 +144,7 @@ li{
 }
 .TheCi{
   position: relative;
-  right: 50px;
+  right: 20px;
 }
 .modal-body{
   display: flex;
@@ -159,7 +159,7 @@ option{
 }
 .TheRoot{
   display: grid;
-  grid-template-columns: 26% 1fr;
+  grid-template-columns: 25% 1fr;
 }
 .TheRoot *{
   /* border: 1px solid black; */
@@ -181,8 +181,9 @@ option{
   color: white;
 }
 .TheTxtParntDiv{
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 15px;
+  margin-left: 20px;
+  letter-spacing: 1px;
 }
 .TheMotiHeaderTitle{
   font-size: 23px;
@@ -195,4 +196,48 @@ option{
 .TheMainInputBody{
   margin-top: 25px;
   text-align: center;
+}
+.TheBallSize{
+  width: 17px;
+}
+.TheMainInputBody *{
+  /* border: 1px solid red; */
+}
+.ThePartOFIcons{
+  display: flex;
+  gap: 4px;
+}
+.TheMainInputBody{
+  background-color: white;
+}
+.TheIconOfSend{
+  width: 23px;
+}
+.TheRowOFTODOLIST{
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+.TheMainInput{
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  padding: 10px;
+  margin: 0px 3px;
+}
+.TheMainInput:focus{
+  outline: none;
+}
+.TheMainInputBody{
+  padding: 6px;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto 7fr 1fr;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
 }
