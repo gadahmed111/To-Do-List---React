@@ -199,6 +199,7 @@ option{
 }
 .TheBallSize{
   width: 17px;
+  cursor: pointer;
 }
 .TheMainInputBody *{
   /* border: 1px solid red; */
@@ -240,4 +241,28 @@ option{
   padding-left: 10px;
   padding-right: 10px;
   align-items: center;
+}
+.TheMainInputBodyEdit{
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto 7fr 1fr;
+}
+.TheStyleOfTitl{
+  color: black;
+  text-align: start;
+}
+.TheTime{
+  color: black;
+  font-size: 16px;
+}
+.TheMainInputElementEdit{
+  display: flex;
+  margin: 0px 10px;
+  margin-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.TheTime{
+  width: 130px;
+  margin-bottom: 0px;
 }
