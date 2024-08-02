@@ -6,6 +6,7 @@ export default function TheMainPage(){
             <div className="TheMainPage">
                 <TheHeader motiTitle="Today Main focus" discr="Design team meeting"></TheHeader>
                 <TheMainInput></TheMainInput>
+
             </div>
         </div>
     )

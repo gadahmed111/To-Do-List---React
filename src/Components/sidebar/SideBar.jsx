@@ -36,7 +36,7 @@ export default function TheSideBarBarnt() {
     return (
         <div className="TheSideBarBarnt">
             <div className="CintraingTheElement">
-                <TheAllInfoProfileOfSideBar title="if you are a man" username="El osta abdo" />
+                <TheAllInfoProfileOfSideBar title="tazkr ya hpip el osta" username="El osta abdo" />
                 <hr />
                 <div className="TheCi">
                     <TheTasksPart className="TheFirstUL" SrcOfICon="./image's/calendar (1).svg" titleOfUl="Today tasks">
