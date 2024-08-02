@@ -8,6 +8,25 @@ export default function TheMainInput() {
     const [inputValue, setInputValue] = useState("");
     const [elements, setElements] = useState([]);
 
+    function getFormattedTime() {
+        const now = new Date(); // Get the current date and time
+    
+        let hours = now.getHours();
+        let minutes = now.getMinutes();
+        const ampm = hours >= 12 ? 'PM' : 'AM';
+    
+        // Convert hours from 24-hour format to 12-hour format
+        hours = hours % 12;
+        hours = hours ? hours : 12; // The hour '0' should be '12'
+        
+        // Add leading zero to minutes if necessary
+        minutes = minutes < 10 ? '0' + minutes : minutes;
+    
+        // Format the time string
+        const timeString = `${hours}:${minutes} ${ampm}`;
+    
+        return timeString;
+    }
     // Handle ball color switch
     function handleBallColorSwitch(e) {
         let TheLink = e.target.src;
@@ -32,7 +51,7 @@ export default function TheMainInput() {
                 break;
         }
     }
-
+    
     // Handle input changes
     function handleInputChange(e) {
         setInputValue(e.target.value);
@@ -46,7 +65,7 @@ export default function TheMainInput() {
                 ...elements,
                 <TheToElement
                     key={elements.length}
-                    TheTime="23.00"
+                    TheTime={getFormattedTime()}
                     TheSRCOFColor={colorPath}
                     titleOfInput={inputValue}
                 />
@@ -60,7 +79,7 @@ export default function TheMainInput() {
             ...elements,
             <TheToElement
                 key={elements.length}
-                TheTime="23.00"
+                TheTime={getFormattedTime()}
                 TheSRCOFColor={colorPath}
                 titleOfInput={inputValue}
             />
